@@ -35,5 +35,8 @@
 				/>
 			{/if}
 		</div>
+	{:else}
+		<p>Connection API はサポートされていません</p>
+		<p>Google ChromeもしくはChromium系ブラウザを利用してください</p>
 	{/if}
 </div>
