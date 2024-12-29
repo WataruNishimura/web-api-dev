@@ -1,2 +1,5 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<ul>
+	<li>
+		<a class="text-blue-600 underline" href="/network-information">Network Information API</a>
+	</li>
+</ul>
