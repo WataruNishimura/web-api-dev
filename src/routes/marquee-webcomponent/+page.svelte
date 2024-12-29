@@ -1,10 +1,11 @@
 <script lang="ts" module>
 	const templateElement = document.createElement('template');
-	const slotElement = document.createElement('slot');
 
+	const slotElement = document.createElement('slot');
 	const wrapperElement = document.createElement('span');
-	wrapperElement.id = 'animate-target';
 	wrapperElement.innerHTML = slotElement.outerHTML;
+
+	wrapperElement.id = 'animate-target';
 
 	templateElement.innerHTML = `
     <style>
